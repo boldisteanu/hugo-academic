@@ -1,8 +1,23 @@
 // Override this file to add your own SCSS styling.
 
+.navbar {
+  height: 80px;
+  background: #fff;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
+  font-size: 12px;
+  font-family: Montserrat, Arial;
+  font-weight: bold;
+}
+
 .navbar-brand img {
-    max-height: 40px;  // For lg+ responsive sizing. 60px height +10px v-padding = 70px
+  max-height: 50px;  // For lg+ responsive sizing. 60px height +10px v-padding = 70px
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
   }
+}
 
 .btn-primary {
   background-color: #f05138;
@@ -61,4 +76,10 @@
 .hero-lead a, .hero-lead a:hover, .hero-lead a:focus, .hero-lead a:visited, .hero-lead a:active, .hero-lead a:link
 {
   text-decoration-color: #f05138;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  color: #342c9b;
 }
