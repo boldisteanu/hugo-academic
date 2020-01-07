@@ -36,3 +36,22 @@
 
 //.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,.show > .btn-primary.dropdown-toggle:focus {
 //  box-shadow: 0 0 0 0.2rem rgba(73, 122, 255, 0.5); }
+
+.hero-title {
+  font-size: 4rem;
+  color: #342c9b;
+  font-weight: bold;
+}
+
+.hero-lead, .hero-lead a {
+  font-size: 2rem;
+  color: #342c9b;
+  font-weight: bold;
+  font-family: Montserrat, Arial;
+  line-height: 1.5;
+}
+
+.hero-lead a, .hero-lead a:hover, .hero-lead a:focus, .hero-lead a:visited, .hero-lead a:active
+{
+  text-decoration-color: #f05138;
+}
