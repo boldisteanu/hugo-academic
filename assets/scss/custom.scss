@@ -37,6 +37,12 @@
 //.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,.show > .btn-primary.dropdown-toggle:focus {
 //  box-shadow: 0 0 0 0.2rem rgba(73, 122, 255, 0.5); }
 
+// Hero widget
+
+.wg-hero {
+  padding: 4em 0;
+}
+
 .hero-title {
   font-size: 4rem;
   color: #342c9b;
@@ -49,9 +55,10 @@
   font-weight: bold;
   font-family: Montserrat, Arial;
   line-height: 1.5;
+  padding: .75em 0;
 }
 
-.hero-lead a, .hero-lead a:hover, .hero-lead a:focus, .hero-lead a:visited, .hero-lead a:active
+.hero-lead a, .hero-lead a:hover, .hero-lead a:focus, .hero-lead a:visited, .hero-lead a:active, .hero-lead a:link
 {
   text-decoration-color: #f05138;
 }
