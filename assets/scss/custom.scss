@@ -13,6 +13,15 @@
   max-height: 50px;  // For lg+ responsive sizing. 60px height +10px v-padding = 70px
 }
 
+ul.nav-icons {
+  font-size: 14px;
+}
+
+ul.nav-icons span {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1rem;
