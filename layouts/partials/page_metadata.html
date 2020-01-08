@@ -23,7 +23,9 @@
           {{ i18n "last_updated" }}
       {{ end }}
     {{ end }}
-    {{ $date }}
+    {{ if eq $page.Type "article" }}
+      {{ $date }}
+    {{ end }}
   </span>
   {{ end }}
 
