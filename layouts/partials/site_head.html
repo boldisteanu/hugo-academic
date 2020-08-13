@@ -136,6 +136,7 @@
 
   {{ partial "marketing/google_analytics" . }}
   {{ partial "marketing/google_tag_manager" . }}
+  {{ partial "marketing/facebook_pixel" . }}
 
   {{/* Netlify Identity integration. */}}
   {{ if .IsHome | and (site.Params.cms.netlify_cms | default true) }}
