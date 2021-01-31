@@ -1,3 +1,3 @@
-module github.com/wowchemy/wowchemy-hugo-modules/netlify-cms-academic
+module github.com/boldisteanu/hugo-academic/netlify-cms-academic
 
 go 1.15
